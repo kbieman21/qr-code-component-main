@@ -36,35 +36,27 @@ main{
     gap: 16px;
 }
 
-.text1{
-    color: blue hsl(218, 44%, 22%);
-    font-family: inherit;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 120%;
-    margin-left: 16px;
-    margin-right: 16px;
-    border: none;
+.text h1 {
+  font-size: 1.25rem;
+  color: hsl(218, 44%, 22%);
+  margin: 16px 0 8px;
+  line-height: 1.4;
 }
 
-.text2{
-    color: blue hsl(216, 15%, 48%);
-    font-family: inherit;
-    font-weight: regular;
-    font-size: 15px;
-    line-height: 140%;
-    letter-spacing: 0.2px;
-    margin-left: 16px;
-    margin-right: 16px;
-    border: none;
-    
-    
+.text p {
+  font-size: 0.95rem;
+  color: hsl(216, 15%, 48%);
+  margin: 0 16px 16px;
+  line-height: 1.6;
 }
+
+
 
 .qrImage{
-    width: 288px;
-    height: 288px;
-    padding-top: 16px;
+  padding-top: 16px;
+  width: 90%;
+  border-radius: 10px;
+  height: auto;
     
 }
 
